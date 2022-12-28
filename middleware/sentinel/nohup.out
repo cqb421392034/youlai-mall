@@ -1,0 +1,531 @@
+INFO: Sentinel log output type is: file
+INFO: Sentinel log charset is: utf-8
+INFO: Sentinel log base directory is: C:\Users\Administrator\logs\csp\
+INFO: Sentinel log name use pid is: false
+INFO: Sentinel log level is: INFO
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.5.12)
+
+2022-10-11 14:21:16.592  INFO 12408 --- [           main] c.a.c.s.dashboard.DashboardApplication   : Starting DashboardApplication using Java 1.8.0_151 on DESKTOP-JBN01T3 with PID 12408 (D:\DeskTop\sentinel\sentinel-dashboard-1.8.5.jar started by Administrator in D:\DeskTop\sentinel)
+2022-10-11 14:21:16.596  INFO 12408 --- [           main] c.a.c.s.dashboard.DashboardApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-10-11 14:21:18.460  INFO 12408 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 60004 (http)
+2022-10-11 14:21:18.472  INFO 12408 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-11 14:21:18.480  INFO 12408 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-10-11 14:21:18.627  INFO 12408 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-11 14:21:18.627  INFO 12408 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1905 ms
+2022-10-11 14:21:18.712  INFO 12408 --- [           main] c.a.c.s.dashboard.config.WebConfig       : Sentinel servlet CommonFilter registered
+2022-10-11 14:21:19.913  INFO 12408 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 60004 (http) with context path ''
+2022-10-11 14:21:19.923  INFO 12408 --- [           main] c.a.c.s.dashboard.DashboardApplication   : Started DashboardApplication in 4.091 seconds (JVM running for 5.202)
+2022-10-11 14:21:20.852  INFO 12408 --- [io-60004-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-11 14:21:20.852  INFO 12408 --- [io-60004-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-11 14:21:20.854  INFO 12408 --- [io-60004-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-10-11 14:28:40.502 ERROR 12408 --- [pool-2-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8719/metric?startTime=1665469710000&endTime=1665469716000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-10-11 14:28:47.517 ERROR 12408 --- [pool-2-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8719/metric?startTime=1665469717000&endTime=1665469723000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-10-11 14:28:54.509 ERROR 12408 --- [pool-2-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8719/metric?startTime=1665469724000&endTime=1665469730000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-10-11 14:29:01.503 ERROR 12408 --- [pool-2-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8719/metric?startTime=1665469731000&endTime=1665469737000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-10-11 14:29:08.509 ERROR 12408 --- [pool-2-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8719/metric?startTime=1665469738000&endTime=1665469744000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-10-11 14:29:15.483 ERROR 12408 --- [pool-2-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8719/metric?startTime=1665469745000&endTime=1665469751000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-10-11 14:29:22.499 ERROR 12408 --- [pool-2-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8719/metric?startTime=1665469752000&endTime=1665469758000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-10-11 14:29:29.506 ERROR 12408 --- [pool-2-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8719/metric?startTime=1665469759000&endTime=1665469765000&refetch=false> (ConnectionException: Connection refused: no further information)
+INFO: Sentinel log output type is: file
+INFO: Sentinel log charset is: utf-8
+INFO: Sentinel log base directory is: C:\Users\Administrator\logs\csp\
+INFO: Sentinel log name use pid is: false
+INFO: Sentinel log level is: INFO
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.5.12)
+
+2022-10-14 14:51:24.661  INFO 6508 --- [           main] c.a.c.s.dashboard.DashboardApplication   : Starting DashboardApplication using Java 1.8.0_151 on DESKTOP-JBN01T3 with PID 6508 (D:\DeskTop\sentinel\sentinel-dashboard-1.8.5.jar started by Administrator in D:\DeskTop\sentinel)
+2022-10-14 14:51:24.661  INFO 6508 --- [           main] c.a.c.s.dashboard.DashboardApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-10-14 14:51:27.239  INFO 6508 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 60004 (http)
+2022-10-14 14:51:27.270  INFO 6508 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-14 14:51:27.270  INFO 6508 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-10-14 14:51:27.863  INFO 6508 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-14 14:51:27.863  INFO 6508 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3061 ms
+2022-10-14 14:51:27.942  INFO 6508 --- [           main] c.a.c.s.dashboard.config.WebConfig       : Sentinel servlet CommonFilter registered
+2022-10-14 14:51:30.036  INFO 6508 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 60004 (http) with context path ''
+2022-10-14 14:51:30.052  INFO 6508 --- [           main] c.a.c.s.dashboard.DashboardApplication   : Started DashboardApplication in 6.057 seconds (JVM running for 7.314)
+2022-10-14 14:51:31.098  INFO 6508 --- [io-60004-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-14 14:51:31.098  INFO 6508 --- [io-60004-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-14 14:51:31.098  INFO 6508 --- [io-60004-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-10-14 15:41:50.609 ERROR 6508 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1665733300000&endTime=1665733306000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-10-14 15:41:57.608 ERROR 6508 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1665733307000&endTime=1665733313000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-10-14 15:42:04.618 ERROR 6508 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1665733314000&endTime=1665733320000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-10-14 15:42:11.614 ERROR 6508 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1665733321000&endTime=1665733327000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-10-14 15:42:18.616 ERROR 6508 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1665733328000&endTime=1665733334000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-10-14 15:42:25.624 ERROR 6508 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1665733335000&endTime=1665733341000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-10-14 15:42:32.620 ERROR 6508 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1665733342000&endTime=1665733348000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-10-14 15:42:39.610 ERROR 6508 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1665733349000&endTime=1665733355000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-10-14 15:47:05.599 ERROR 6508 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1665733615000&endTime=1665733621000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-10-14 15:47:12.617 ERROR 6508 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1665733622000&endTime=1665733628000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-10-14 15:47:19.613 ERROR 6508 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1665733629000&endTime=1665733635000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-10-14 15:47:26.589 ERROR 6508 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1665733636000&endTime=1665733642000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-10-14 15:47:33.603 ERROR 6508 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1665733643000&endTime=1665733649000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-10-14 16:41:06.609 ERROR 6508 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1665736856000&endTime=1665736862000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-10-14 16:41:13.616 ERROR 6508 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1665736863000&endTime=1665736869000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-10-14 16:41:20.604 ERROR 6508 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1665736870000&endTime=1665736876000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-10-14 16:41:27.625 ERROR 6508 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1665736877000&endTime=1665736883000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-10-14 16:41:34.604 ERROR 6508 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1665736884000&endTime=1665736890000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-10-14 16:41:41.605 ERROR 6508 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1665736891000&endTime=1665736897000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-10-14 16:41:48.619 ERROR 6508 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1665736898000&endTime=1665736904000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-10-14 16:47:31.609 ERROR 6508 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1665737241000&endTime=1665737247000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-10-14 16:47:38.621 ERROR 6508 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1665737248000&endTime=1665737254000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-10-14 16:47:45.622 ERROR 6508 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1665737255000&endTime=1665737261000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-10-14 16:47:52.613 ERROR 6508 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1665737262000&endTime=1665737268000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-10-14 16:47:59.618 ERROR 6508 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1665737269000&endTime=1665737275000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-10-14 16:48:06.605 ERROR 6508 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1665737276000&endTime=1665737282000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-10-14 16:48:13.628 ERROR 6508 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1665737283000&endTime=1665737289000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-10-14 16:52:37.996 ERROR 6508 --- [O dispatcher 21] c.a.c.s.dashboard.metric.MetricFetcher   : fetch metric http://192.168.0.247:8720/metric?startTime=1665737549000&endTime=1665737555000&refetch=false error
+
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.8.0_151]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[na:1.8.0_151]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[na:1.8.0_151]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[na:1.8.0_151]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[na:1.8.0_151]
+	at org.apache.http.impl.nio.reactor.SessionInputBufferImpl.fill(SessionInputBufferImpl.java:204) ~[httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.codecs.AbstractMessageParser.fillBuffer(AbstractMessageParser.java:136) ~[httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.DefaultNHttpClientConnection.consumeInput(DefaultNHttpClientConnection.java:241) ~[httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.client.InternalIODispatch.onInputReady(InternalIODispatch.java:81) [httpasyncclient-4.1.3.jar!/:4.1.3]
+	at org.apache.http.impl.nio.client.InternalIODispatch.onInputReady(InternalIODispatch.java:39) [httpasyncclient-4.1.3.jar!/:4.1.3]
+	at org.apache.http.impl.nio.reactor.AbstractIODispatch.inputReady(AbstractIODispatch.java:114) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.readable(BaseIOReactor.java:162) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvent(AbstractIOReactor.java:337) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvents(AbstractIOReactor.java:315) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:276) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:104) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:588) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+
+2022-10-14 16:52:46.622 ERROR 6508 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1665737556000&endTime=1665737562000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-10-14 16:52:53.594 ERROR 6508 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1665737563000&endTime=1665737569000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-10-14 16:53:00.599 ERROR 6508 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1665737570000&endTime=1665737576000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-10-14 16:53:07.628 ERROR 6508 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1665737577000&endTime=1665737583000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-10-14 16:53:14.612 ERROR 6508 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1665737584000&endTime=1665737590000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-10-14 16:53:21.615 ERROR 6508 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1665737591000&endTime=1665737597000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-10-14 16:53:28.627 ERROR 6508 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1665737598000&endTime=1665737604000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-10-14 16:53:35.592 ERROR 6508 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1665737605000&endTime=1665737611000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-10-14 16:53:57.600 ERROR 6508 --- [O dispatcher 18] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1665737626000&endTime=1665737632000&refetch=false>: socket timeout
+INFO: Sentinel log output type is: file
+INFO: Sentinel log charset is: utf-8
+INFO: Sentinel log base directory is: C:\Users\Administrator\logs\csp\
+INFO: Sentinel log name use pid is: false
+INFO: Sentinel log level is: INFO
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.5.12)
+
+2022-11-07 08:52:09.035  INFO 10132 --- [           main] c.a.c.s.dashboard.DashboardApplication   : Starting DashboardApplication using Java 1.8.0_151 on DESKTOP-JBN01T3 with PID 10132 (D:\DeskTop\sentinel\sentinel-dashboard-1.8.5.jar started by Administrator in D:\DeskTop\sentinel)
+2022-11-07 08:52:09.051  INFO 10132 --- [           main] c.a.c.s.dashboard.DashboardApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-11-07 08:52:10.960  INFO 10132 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 60004 (http)
+2022-11-07 08:52:11.002  INFO 10132 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-07 08:52:11.009  INFO 10132 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-11-07 08:52:11.415  INFO 10132 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-07 08:52:11.416  INFO 10132 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2241 ms
+2022-11-07 08:52:11.493  INFO 10132 --- [           main] c.a.c.s.dashboard.config.WebConfig       : Sentinel servlet CommonFilter registered
+2022-11-07 08:52:12.829  INFO 10132 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 60004 (http) with context path ''
+2022-11-07 08:52:12.839  INFO 10132 --- [           main] c.a.c.s.dashboard.DashboardApplication   : Started DashboardApplication in 4.602 seconds (JVM running for 5.882)
+2022-11-07 08:52:13.152  INFO 10132 --- [io-60004-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-07 08:52:13.152  INFO 10132 --- [io-60004-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-07 08:52:13.153  INFO 10132 --- [io-60004-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-07 08:52:57.782  INFO 10132 --- [io-60004-exec-6] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [Hm_lvt_82116c626a8d504a5c0675073362ef6f=1665986795,1666343019,1666572074;] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-11-07 08:53:08.611 ERROR 10132 --- [io-60004-exec-2] c.a.c.s.d.controller.AuthController      : Login failed: Invalid username or password, username=sentinel
+2022-11-08 08:54:38.319 ERROR 10132 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : fetch metric http://192.168.31.80:8719/metric?startTime=1667868870000&endTime=1667868876000&refetch=false error
+
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.8.0_151]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[na:1.8.0_151]
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:171) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:145) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:348) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194) [httpasyncclient-4.1.3.jar!/:4.1.3]
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64) [httpasyncclient-4.1.3.jar!/:4.1.3]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+
+2022-11-08 08:54:38.325 ERROR 10132 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : fetch metric http://192.168.31.80:8720/metric?startTime=1667868870000&endTime=1667868876000&refetch=false error
+
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.8.0_151]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[na:1.8.0_151]
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:171) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:145) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:348) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194) [httpasyncclient-4.1.3.jar!/:4.1.3]
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64) [httpasyncclient-4.1.3.jar!/:4.1.3]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+
+2022-11-08 09:08:08.253  INFO 10132 --- [io-60004-exec-6] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [Hm_lvt_82116c626a8d504a5c0675073362ef6f=1665986795,1666343019,1666572074;] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-11-08 09:37:15.214 ERROR 10132 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667871425000&endTime=1667871431000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-08 09:37:22.185 ERROR 10132 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667871432000&endTime=1667871438000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-08 09:37:29.195 ERROR 10132 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667871439000&endTime=1667871445000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-08 09:37:36.202 ERROR 10132 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667871446000&endTime=1667871452000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-08 09:37:43.221 ERROR 10132 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667871453000&endTime=1667871459000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-08 09:37:50.220 ERROR 10132 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667871460000&endTime=1667871466000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-08 09:37:57.225 ERROR 10132 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667871467000&endTime=1667871473000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-08 09:51:20.439  INFO 10132 --- [io-60004-exec-2] c.a.c.s.d.client.SentinelApiClient       : setRules result: success, type=degrade
+2022-11-08 09:55:21.479  INFO 10132 --- [o-60004-exec-10] c.a.c.s.d.client.SentinelApiClient       : setRules result: success, type=degrade
+2022-11-08 09:58:15.201 ERROR 10132 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667872685000&endTime=1667872691000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-08 09:58:22.213 ERROR 10132 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667872692000&endTime=1667872698000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-08 09:58:29.224 ERROR 10132 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667872699000&endTime=1667872705000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-08 09:59:10.092  INFO 10132 --- [io-60004-exec-9] c.a.c.s.d.client.SentinelApiClient       : setRules result: success, type=degrade
+2022-11-08 10:10:58.218 ERROR 10132 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667873448000&endTime=1667873454000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-08 10:11:05.215 ERROR 10132 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667873455000&endTime=1667873461000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-08 10:11:12.225 ERROR 10132 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667873462000&endTime=1667873468000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-08 10:11:19.212 ERROR 10132 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667873469000&endTime=1667873475000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-08 10:11:26.200 ERROR 10132 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667873476000&endTime=1667873482000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-08 10:11:29.103 ERROR 10132 --- [pool-2-thread-1] c.a.c.s.d.client.SentinelApiClient       : HTTP request failed: http://192.168.31.80:8720/getParamFlowRules
+
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.8.0_151]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[na:1.8.0_151]
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:171) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:145) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:348) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194) [httpasyncclient-4.1.3.jar!/:4.1.3]
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64) [httpasyncclient-4.1.3.jar!/:4.1.3]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+
+2022-11-08 10:11:29.105 ERROR 10132 --- [io-60004-exec-9] c.a.c.s.d.c.ParamFlowRuleController      : Error when querying parameter flow rules
+
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.8.0_151]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[na:1.8.0_151]
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:171) ~[httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:145) ~[httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:348) ~[httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194) ~[httpasyncclient-4.1.3.jar!/:4.1.3]
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64) ~[httpasyncclient-4.1.3.jar!/:4.1.3]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_151]
+
+2022-11-08 10:45:23.214 ERROR 10132 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667875513000&endTime=1667875519000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-08 10:45:30.224 ERROR 10132 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667875520000&endTime=1667875526000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-08 10:45:37.191 ERROR 10132 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667875527000&endTime=1667875533000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-08 10:45:44.214 ERROR 10132 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667875534000&endTime=1667875540000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-08 10:45:51.224 ERROR 10132 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667875541000&endTime=1667875547000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-08 10:45:58.216 ERROR 10132 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667875548000&endTime=1667875554000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-08 10:46:05.199 ERROR 10132 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667875555000&endTime=1667875561000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-08 10:46:12.216 ERROR 10132 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667875562000&endTime=1667875568000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-08 10:52:31.196 ERROR 10132 --- [O dispatcher 18] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667875940000&endTime=1667875946000&refetch=false>: socket timeout
+2022-11-08 10:52:38.184 ERROR 10132 --- [O dispatcher 21] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667875947000&endTime=1667875953000&refetch=false>: socket timeout
+2022-11-08 10:52:45.202 ERROR 10132 --- [O dispatcher 23] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667875954000&endTime=1667875960000&refetch=false>: socket timeout
+2022-11-08 10:52:52.193 ERROR 10132 --- [O dispatcher 25] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667875961000&endTime=1667875967000&refetch=false>: socket timeout
+2022-11-08 10:52:59.192 ERROR 10132 --- [O dispatcher 27] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667875968000&endTime=1667875974000&refetch=false>: socket timeout
+2022-11-08 11:33:55.208 ERROR 10132 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667878425000&endTime=1667878431000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-08 11:34:02.212 ERROR 10132 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667878432000&endTime=1667878438000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-08 11:34:09.213 ERROR 10132 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667878439000&endTime=1667878445000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-08 11:34:16.187 ERROR 10132 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667878446000&endTime=1667878452000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-08 11:34:23.185 ERROR 10132 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667878453000&endTime=1667878459000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-08 11:34:30.187 ERROR 10132 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667878460000&endTime=1667878466000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-08 11:34:37.209 ERROR 10132 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667878467000&endTime=1667878473000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-08 11:34:44.220 ERROR 10132 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667878474000&endTime=1667878480000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-08 11:34:51.185 ERROR 10132 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667878481000&endTime=1667878487000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-08 15:52:23.110 ERROR 10132 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667893933000&endTime=1667893939000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-08 15:52:30.116 ERROR 10132 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667893940000&endTime=1667893946000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-08 15:52:37.122 ERROR 10132 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667893947000&endTime=1667893953000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-08 15:52:44.109 ERROR 10132 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667893954000&endTime=1667893960000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-08 15:52:51.101 ERROR 10132 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667893961000&endTime=1667893967000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-08 15:52:58.106 ERROR 10132 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667893968000&endTime=1667893974000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-08 15:53:05.108 ERROR 10132 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667893975000&endTime=1667893981000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-08 15:53:12.105 ERROR 10132 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.31.80:8720/metric?startTime=1667893982000&endTime=1667893988000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-09 09:38:13.314 ERROR 10132 --- [O dispatcher 19] c.a.c.s.dashboard.metric.MetricFetcher   : fetch metric http://192.168.31.80:8719/metric?startTime=1667907793000&endTime=1667907799000&refetch=false error
+
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.8.0_151]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[na:1.8.0_151]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[na:1.8.0_151]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[na:1.8.0_151]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[na:1.8.0_151]
+	at org.apache.http.impl.nio.reactor.SessionInputBufferImpl.fill(SessionInputBufferImpl.java:204) ~[httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.codecs.AbstractMessageParser.fillBuffer(AbstractMessageParser.java:136) ~[httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.DefaultNHttpClientConnection.consumeInput(DefaultNHttpClientConnection.java:241) ~[httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.client.InternalIODispatch.onInputReady(InternalIODispatch.java:81) [httpasyncclient-4.1.3.jar!/:4.1.3]
+	at org.apache.http.impl.nio.client.InternalIODispatch.onInputReady(InternalIODispatch.java:39) [httpasyncclient-4.1.3.jar!/:4.1.3]
+	at org.apache.http.impl.nio.reactor.AbstractIODispatch.inputReady(AbstractIODispatch.java:114) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.readable(BaseIOReactor.java:162) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvent(AbstractIOReactor.java:337) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvents(AbstractIOReactor.java:315) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:276) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:104) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:588) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+
+2022-11-09 09:38:13.314 ERROR 10132 --- [O dispatcher 20] c.a.c.s.dashboard.metric.MetricFetcher   : fetch metric http://192.168.31.80:8720/metric?startTime=1667907793000&endTime=1667907799000&refetch=false error
+
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.8.0_151]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[na:1.8.0_151]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[na:1.8.0_151]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[na:1.8.0_151]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[na:1.8.0_151]
+	at org.apache.http.impl.nio.reactor.SessionInputBufferImpl.fill(SessionInputBufferImpl.java:204) ~[httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.codecs.AbstractMessageParser.fillBuffer(AbstractMessageParser.java:136) ~[httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.DefaultNHttpClientConnection.consumeInput(DefaultNHttpClientConnection.java:241) ~[httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.client.InternalIODispatch.onInputReady(InternalIODispatch.java:81) [httpasyncclient-4.1.3.jar!/:4.1.3]
+	at org.apache.http.impl.nio.client.InternalIODispatch.onInputReady(InternalIODispatch.java:39) [httpasyncclient-4.1.3.jar!/:4.1.3]
+	at org.apache.http.impl.nio.reactor.AbstractIODispatch.inputReady(AbstractIODispatch.java:114) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.readable(BaseIOReactor.java:162) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvent(AbstractIOReactor.java:337) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvents(AbstractIOReactor.java:315) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:276) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:104) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:588) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+
+2022-11-09 17:11:39.781  INFO 10132 --- [io-60004-exec-7] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [Hm_lvt_82116c626a8d504a5c0675073362ef6f=1665986795,1666343019,1666572074;] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+INFO: Sentinel log output type is: file
+INFO: Sentinel log charset is: utf-8
+INFO: Sentinel log base directory is: C:\Users\Administrator\logs\csp\
+INFO: Sentinel log name use pid is: false
+INFO: Sentinel log level is: INFO
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.5.12)
+
+2022-11-22 16:48:48.809  INFO 11032 --- [           main] c.a.c.s.dashboard.DashboardApplication   : Starting DashboardApplication using Java 1.8.0_151 on DESKTOP-JBN01T3 with PID 11032 (D:\fssrcNew202001\java\youlai-mall\middleware\sentinel\sentinel-dashboard-1.8.5.jar started by Administrator in D:\fssrcNew202001\java\youlai-mall\middleware\sentinel)
+2022-11-22 16:48:48.815  INFO 11032 --- [           main] c.a.c.s.dashboard.DashboardApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-11-22 16:48:50.239  INFO 11032 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8858 (http)
+2022-11-22 16:48:50.252  INFO 11032 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-22 16:48:50.258  INFO 11032 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-11-22 16:48:50.395  INFO 11032 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-22 16:48:50.396  INFO 11032 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1522 ms
+2022-11-22 16:48:50.483  INFO 11032 --- [           main] c.a.c.s.dashboard.config.WebConfig       : Sentinel servlet CommonFilter registered
+2022-11-22 16:48:51.646  INFO 11032 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8858 (http) with context path ''
+2022-11-22 16:48:51.656  INFO 11032 --- [           main] c.a.c.s.dashboard.DashboardApplication   : Started DashboardApplication in 3.26 seconds (JVM running for 3.781)
+2022-11-22 16:48:53.383  INFO 11032 --- [nio-8858-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-22 16:48:53.383  INFO 11032 --- [nio-8858-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-22 16:48:53.385  INFO 11032 --- [nio-8858-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-22 16:49:21.303  INFO 11032 --- [nio-8858-exec-8] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [Hm_lvt_82116c626a8d504a5c0675073362ef6f=1665986795,1666343019,1666572074;] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+INFO: Sentinel log output type is: file
+INFO: Sentinel log charset is: utf-8
+INFO: Sentinel log base directory is: C:\Users\Administrator\logs\csp\
+INFO: Sentinel log name use pid is: false
+INFO: Sentinel log level is: INFO
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.5.12)
+
+2022-11-23 09:51:51.382  INFO 8748 --- [           main] c.a.c.s.dashboard.DashboardApplication   : Starting DashboardApplication using Java 1.8.0_151 on DESKTOP-JBN01T3 with PID 8748 (D:\fssrcNew202001\java\youlai-mall\middleware\sentinel\sentinel-dashboard-1.8.5.jar started by Administrator in D:\fssrcNew202001\java\youlai-mall\middleware\sentinel)
+2022-11-23 09:51:51.389  INFO 8748 --- [           main] c.a.c.s.dashboard.DashboardApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-11-23 09:51:53.147  INFO 8748 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8858 (http)
+2022-11-23 09:51:53.166  INFO 8748 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-23 09:51:53.173  INFO 8748 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-11-23 09:51:53.377  INFO 8748 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-23 09:51:53.377  INFO 8748 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1920 ms
+2022-11-23 09:51:53.454  INFO 8748 --- [           main] c.a.c.s.dashboard.config.WebConfig       : Sentinel servlet CommonFilter registered
+2022-11-23 09:51:54.636  INFO 8748 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8858 (http) with context path ''
+2022-11-23 09:51:54.647  INFO 8748 --- [           main] c.a.c.s.dashboard.DashboardApplication   : Started DashboardApplication in 3.912 seconds (JVM running for 4.856)
+2022-11-23 09:51:55.802  INFO 8748 --- [nio-8858-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-23 09:51:55.803  INFO 8748 --- [nio-8858-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-23 09:51:55.803  INFO 8748 --- [nio-8858-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-11-23 09:53:49.612  INFO 8748 --- [nio-8858-exec-3] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [Hm_lvt_82116c626a8d504a5c0675073362ef6f=1665986795,1666343019,1666572074;] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-11-23 15:50:16.829 ERROR 8748 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669189806000&endTime=1669189812000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-23 15:50:23.842 ERROR 8748 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669189813000&endTime=1669189819000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-23 15:50:30.817 ERROR 8748 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669189820000&endTime=1669189826000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-23 15:50:37.854 ERROR 8748 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669189827000&endTime=1669189833000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-23 15:51:13.839 ERROR 8748 --- [O dispatcher 20] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669189862000&endTime=1669189868000&refetch=false>: socket timeout
+2022-11-23 15:51:20.839 ERROR 8748 --- [O dispatcher 22] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669189869000&endTime=1669189875000&refetch=false>: socket timeout
+2022-11-23 15:51:27.843 ERROR 8748 --- [O dispatcher 24] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669189876000&endTime=1669189882000&refetch=false>: socket timeout
+2022-11-23 15:51:34.836 ERROR 8748 --- [O dispatcher 26] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669189883000&endTime=1669189889000&refetch=false>: socket timeout
+2022-11-23 15:51:41.834 ERROR 8748 --- [O dispatcher 28] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669189890000&endTime=1669189896000&refetch=false>: socket timeout
+2022-11-23 15:51:48.848 ERROR 8748 --- [O dispatcher 30] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669189897000&endTime=1669189903000&refetch=false>: socket timeout
+2022-11-23 15:51:55.829 ERROR 8748 --- [O dispatcher 32] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669189904000&endTime=1669189910000&refetch=false>: socket timeout
+2022-11-23 15:52:02.832 ERROR 8748 --- [O dispatcher 18] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669189911000&endTime=1669189917000&refetch=false>: socket timeout
+2022-11-23 15:52:09.843 ERROR 8748 --- [O dispatcher 20] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669189918000&endTime=1669189924000&refetch=false>: socket timeout
+2022-11-23 15:52:16.823 ERROR 8748 --- [O dispatcher 22] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669189925000&endTime=1669189931000&refetch=false>: socket timeout
+2022-11-23 15:52:23.844 ERROR 8748 --- [O dispatcher 24] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669189932000&endTime=1669189938000&refetch=false>: socket timeout
+2022-11-23 15:52:30.836 ERROR 8748 --- [O dispatcher 26] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669189939000&endTime=1669189945000&refetch=false>: socket timeout
+2022-11-23 15:52:37.843 ERROR 8748 --- [O dispatcher 28] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669189946000&endTime=1669189952000&refetch=false>: socket timeout
+2022-11-23 15:52:44.830 ERROR 8748 --- [O dispatcher 30] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669189953000&endTime=1669189959000&refetch=false>: socket timeout
+2022-11-23 15:52:51.816 ERROR 8748 --- [O dispatcher 32] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669189960000&endTime=1669189966000&refetch=false>: socket timeout
+2022-11-23 15:52:58.823 ERROR 8748 --- [O dispatcher 18] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669189967000&endTime=1669189973000&refetch=false>: socket timeout
+2022-11-23 15:53:05.832 ERROR 8748 --- [O dispatcher 20] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669189974000&endTime=1669189980000&refetch=false>: socket timeout
+2022-11-23 15:53:12.848 ERROR 8748 --- [O dispatcher 22] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669189981000&endTime=1669189987000&refetch=false>: socket timeout
+2022-11-23 15:53:19.832 ERROR 8748 --- [O dispatcher 24] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669189988000&endTime=1669189994000&refetch=false>: socket timeout
+2022-11-23 15:53:26.852 ERROR 8748 --- [O dispatcher 26] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669189995000&endTime=1669190001000&refetch=false>: socket timeout
+2022-11-23 16:07:54.846 ERROR 8748 --- [O dispatcher 24] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669190863000&endTime=1669190869000&refetch=false>: socket timeout
+2022-11-23 16:08:01.829 ERROR 8748 --- [O dispatcher 26] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669190870000&endTime=1669190876000&refetch=false>: socket timeout
+2022-11-23 16:08:08.854 ERROR 8748 --- [O dispatcher 28] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669190877000&endTime=1669190883000&refetch=false>: socket timeout
+2022-11-23 16:08:15.827 ERROR 8748 --- [O dispatcher 30] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669190884000&endTime=1669190890000&refetch=false>: socket timeout
+2022-11-23 16:08:22.835 ERROR 8748 --- [O dispatcher 32] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669190891000&endTime=1669190897000&refetch=false>: socket timeout
+2022-11-23 16:08:29.851 ERROR 8748 --- [O dispatcher 18] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669190898000&endTime=1669190904000&refetch=false>: socket timeout
+2022-11-23 16:08:36.840 ERROR 8748 --- [O dispatcher 20] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669190905000&endTime=1669190911000&refetch=false>: socket timeout
+2022-11-23 16:08:43.836 ERROR 8748 --- [O dispatcher 22] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669190912000&endTime=1669190918000&refetch=false>: socket timeout
+2022-11-23 16:09:11.841 ERROR 8748 --- [O dispatcher 28] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669190940000&endTime=1669190946000&refetch=false>: socket timeout
+2022-11-23 16:54:55.814 ERROR 8748 --- [O dispatcher 28] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669193684000&endTime=1669193690000&refetch=false>: socket timeout
+2022-11-23 16:55:02.831 ERROR 8748 --- [O dispatcher 30] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669193691000&endTime=1669193697000&refetch=false>: socket timeout
+2022-11-23 16:55:09.840 ERROR 8748 --- [O dispatcher 32] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669193698000&endTime=1669193704000&refetch=false>: socket timeout
+2022-11-23 16:55:16.839 ERROR 8748 --- [O dispatcher 18] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669193705000&endTime=1669193711000&refetch=false>: socket timeout
+2022-11-23 16:55:23.840 ERROR 8748 --- [O dispatcher 20] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669193712000&endTime=1669193718000&refetch=false>: socket timeout
+2022-11-23 16:55:30.827 ERROR 8748 --- [O dispatcher 22] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669193719000&endTime=1669193725000&refetch=false>: socket timeout
+2022-11-23 16:55:37.835 ERROR 8748 --- [O dispatcher 24] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669193726000&endTime=1669193732000&refetch=false>: socket timeout
+2022-11-23 16:55:44.833 ERROR 8748 --- [O dispatcher 26] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669193733000&endTime=1669193739000&refetch=false>: socket timeout
+2022-11-23 16:55:51.835 ERROR 8748 --- [O dispatcher 28] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669193740000&endTime=1669193746000&refetch=false>: socket timeout
+2022-11-23 16:55:58.846 ERROR 8748 --- [O dispatcher 30] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669193747000&endTime=1669193753000&refetch=false>: socket timeout
+2022-11-23 16:56:47.839 ERROR 8748 --- [O dispatcher 22] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669193796000&endTime=1669193802000&refetch=false>: socket timeout
+2022-11-23 16:56:54.810 ERROR 8748 --- [O dispatcher 24] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669193803000&endTime=1669193809000&refetch=false>: socket timeout
+2022-11-23 16:57:01.825 ERROR 8748 --- [O dispatcher 26] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669193810000&endTime=1669193816000&refetch=false>: socket timeout
+2022-11-23 16:57:08.833 ERROR 8748 --- [O dispatcher 28] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669193817000&endTime=1669193823000&refetch=false>: socket timeout
+2022-11-23 16:57:15.825 ERROR 8748 --- [O dispatcher 30] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669193824000&endTime=1669193830000&refetch=false>: socket timeout
+2022-11-23 16:57:22.844 ERROR 8748 --- [O dispatcher 32] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669193831000&endTime=1669193837000&refetch=false>: socket timeout
+2022-11-23 16:57:29.830 ERROR 8748 --- [O dispatcher 18] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669193838000&endTime=1669193844000&refetch=false>: socket timeout
+2022-11-23 16:57:36.831 ERROR 8748 --- [O dispatcher 20] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669193845000&endTime=1669193851000&refetch=false>: socket timeout
+2022-11-23 16:57:43.828 ERROR 8748 --- [O dispatcher 22] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669193852000&endTime=1669193858000&refetch=false>: socket timeout
+2022-11-23 16:57:50.835 ERROR 8748 --- [O dispatcher 24] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669193859000&endTime=1669193865000&refetch=false>: socket timeout
+2022-11-23 17:00:52.824 ERROR 8748 --- [O dispatcher 19] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669194041000&endTime=1669194047000&refetch=false>: socket timeout
+2022-11-23 17:00:59.833 ERROR 8748 --- [O dispatcher 21] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669194048000&endTime=1669194054000&refetch=false>: socket timeout
+2022-11-23 17:01:06.823 ERROR 8748 --- [O dispatcher 23] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669194055000&endTime=1669194061000&refetch=false>: socket timeout
+2022-11-23 17:01:13.856 ERROR 8748 --- [O dispatcher 25] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669194062000&endTime=1669194068000&refetch=false>: socket timeout
+2022-11-23 17:01:20.848 ERROR 8748 --- [O dispatcher 27] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669194069000&endTime=1669194075000&refetch=false>: socket timeout
+2022-11-23 17:01:27.838 ERROR 8748 --- [O dispatcher 29] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669194076000&endTime=1669194082000&refetch=false>: socket timeout
+2022-11-23 17:01:34.143 ERROR 8748 --- [O dispatcher 31] c.a.c.s.dashboard.metric.MetricFetcher   : fetch metric http://192.168.0.247:8721/metric?startTime=1669194083000&endTime=1669194089000&refetch=false error
+
+org.apache.http.ConnectionClosedException: Connection closed
+	at org.apache.http.nio.protocol.HttpAsyncRequestExecutor.endOfInput(HttpAsyncRequestExecutor.java:345) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.DefaultNHttpClientConnection.consumeInput(DefaultNHttpClientConnection.java:261) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.client.InternalIODispatch.onInputReady(InternalIODispatch.java:81) [httpasyncclient-4.1.3.jar!/:4.1.3]
+	at org.apache.http.impl.nio.client.InternalIODispatch.onInputReady(InternalIODispatch.java:39) [httpasyncclient-4.1.3.jar!/:4.1.3]
+	at org.apache.http.impl.nio.reactor.AbstractIODispatch.inputReady(AbstractIODispatch.java:114) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.readable(BaseIOReactor.java:162) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvent(AbstractIOReactor.java:337) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvents(AbstractIOReactor.java:315) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:276) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:104) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:588) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+
+2022-11-23 17:01:41.843 ERROR 8748 --- [O dispatcher 17] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669194090000&endTime=1669194096000&refetch=false>: socket timeout
+2022-11-23 17:01:47.206 ERROR 8748 --- [O dispatcher 19] c.a.c.s.dashboard.metric.MetricFetcher   : fetch metric http://192.168.0.247:8721/metric?startTime=1669194097000&endTime=1669194103000&refetch=false error
+
+org.apache.http.ConnectionClosedException: Connection closed
+	at org.apache.http.nio.protocol.HttpAsyncRequestExecutor.endOfInput(HttpAsyncRequestExecutor.java:345) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.DefaultNHttpClientConnection.consumeInput(DefaultNHttpClientConnection.java:261) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.client.InternalIODispatch.onInputReady(InternalIODispatch.java:81) [httpasyncclient-4.1.3.jar!/:4.1.3]
+	at org.apache.http.impl.nio.client.InternalIODispatch.onInputReady(InternalIODispatch.java:39) [httpasyncclient-4.1.3.jar!/:4.1.3]
+	at org.apache.http.impl.nio.reactor.AbstractIODispatch.inputReady(AbstractIODispatch.java:114) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.readable(BaseIOReactor.java:162) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvent(AbstractIOReactor.java:337) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvents(AbstractIOReactor.java:315) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:276) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:104) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:588) [httpcore-nio-4.4.6.jar!/:4.4.6]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+
+2022-11-23 17:01:55.837 ERROR 8748 --- [O dispatcher 21] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669194104000&endTime=1669194110000&refetch=false>: socket timeout
+2022-11-23 18:06:18.850 ERROR 8748 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8721/metric?startTime=1669197968000&endTime=1669197974000&refetch=false> (ConnectionException: Connection refused: no further information)
+INFO: Sentinel log output type is: file
+INFO: Sentinel log charset is: utf-8
+INFO: Sentinel log base directory is: C:\Users\Administrator\logs\csp\
+INFO: Sentinel log name use pid is: false
+INFO: Sentinel log level is: INFO
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.5.12)
+
+2022-11-24 09:51:23.872  INFO 15696 --- [           main] c.a.c.s.dashboard.DashboardApplication   : Starting DashboardApplication using Java 1.8.0_151 on DESKTOP-JBN01T3 with PID 15696 (D:\fssrcNew202001\java\youlai-mall\middleware\sentinel\sentinel-dashboard-1.8.5.jar started by Administrator in D:\fssrcNew202001\java\youlai-mall\middleware\sentinel)
+2022-11-24 09:51:23.879  INFO 15696 --- [           main] c.a.c.s.dashboard.DashboardApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-11-24 09:51:25.987  INFO 15696 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8858 (http)
+2022-11-24 09:51:25.999  INFO 15696 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-24 09:51:26.006  INFO 15696 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-11-24 09:51:26.466  INFO 15696 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-24 09:51:26.466  INFO 15696 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2525 ms
+2022-11-24 09:51:26.560  INFO 15696 --- [           main] c.a.c.s.dashboard.config.WebConfig       : Sentinel servlet CommonFilter registered
+2022-11-24 09:51:29.077  INFO 15696 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8858 (http) with context path ''
+2022-11-24 09:51:29.088  INFO 15696 --- [           main] c.a.c.s.dashboard.DashboardApplication   : Started DashboardApplication in 5.886 seconds (JVM running for 7.271)
+2022-11-24 09:51:29.427  INFO 15696 --- [nio-8858-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-24 09:51:29.427  INFO 15696 --- [nio-8858-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-24 09:51:29.428  INFO 15696 --- [nio-8858-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-24 09:53:47.443  INFO 15696 --- [nio-8858-exec-3] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [Hm_lvt_82116c626a8d504a5c0675073362ef6f=1665986795,1666343019,1666572074;] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-11-24 10:46:57.339 ERROR 15696 --- [pool-3-thread-1] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1669258007000&endTime=1669258013000&refetch=false> (ConnectionException: Connection refused: no further information)
+2022-11-24 10:47:19.314 ERROR 15696 --- [O dispatcher 18] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1669258028000&endTime=1669258034000&refetch=false>: socket timeout
+2022-11-24 10:47:26.303 ERROR 15696 --- [O dispatcher 20] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1669258035000&endTime=1669258041000&refetch=false>: socket timeout
+2022-11-24 10:47:33.330 ERROR 15696 --- [O dispatcher 22] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1669258042000&endTime=1669258048000&refetch=false>: socket timeout
+2022-11-24 10:47:40.327 ERROR 15696 --- [O dispatcher 24] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1669258049000&endTime=1669258055000&refetch=false>: socket timeout
+2022-11-24 10:47:47.320 ERROR 15696 --- [O dispatcher 26] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1669258056000&endTime=1669258062000&refetch=false>: socket timeout
+2022-11-24 10:47:54.305 ERROR 15696 --- [O dispatcher 28] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1669258063000&endTime=1669258069000&refetch=false>: socket timeout
+2022-11-24 10:48:01.328 ERROR 15696 --- [O dispatcher 30] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1669258070000&endTime=1669258076000&refetch=false>: socket timeout
+2022-11-24 10:48:08.309 ERROR 15696 --- [O dispatcher 32] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1669258077000&endTime=1669258083000&refetch=false>: socket timeout
+2022-11-24 10:50:49.319 ERROR 15696 --- [O dispatcher 24] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1669258238000&endTime=1669258244000&refetch=false>: socket timeout
+2022-11-24 10:50:56.322 ERROR 15696 --- [O dispatcher 26] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1669258245000&endTime=1669258251000&refetch=false>: socket timeout
+2022-11-24 10:51:03.328 ERROR 15696 --- [O dispatcher 28] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1669258252000&endTime=1669258258000&refetch=false>: socket timeout
+2022-11-24 10:51:10.341 ERROR 15696 --- [O dispatcher 30] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1669258259000&endTime=1669258265000&refetch=false>: socket timeout
+2022-11-24 10:51:17.330 ERROR 15696 --- [O dispatcher 32] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1669258266000&endTime=1669258272000&refetch=false>: socket timeout
+2022-11-24 10:51:24.315 ERROR 15696 --- [O dispatcher 18] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1669258273000&endTime=1669258279000&refetch=false>: socket timeout
+2022-11-24 10:51:31.334 ERROR 15696 --- [O dispatcher 20] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1669258280000&endTime=1669258286000&refetch=false>: socket timeout
+2022-11-24 10:51:38.323 ERROR 15696 --- [O dispatcher 22] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1669258287000&endTime=1669258293000&refetch=false>: socket timeout
+2022-11-24 10:51:45.310 ERROR 15696 --- [O dispatcher 24] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1669258294000&endTime=1669258300000&refetch=false>: socket timeout
+2022-11-24 11:43:40.321 ERROR 15696 --- [O dispatcher 17] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1669261409000&endTime=1669261415000&refetch=false>: socket timeout
+2022-11-24 11:43:47.301 ERROR 15696 --- [O dispatcher 19] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1669261416000&endTime=1669261422000&refetch=false>: socket timeout
+2022-11-24 11:43:54.312 ERROR 15696 --- [O dispatcher 22] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1669261423000&endTime=1669261429000&refetch=false>: socket timeout
+2022-11-24 11:44:01.314 ERROR 15696 --- [O dispatcher 23] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1669261430000&endTime=1669261436000&refetch=false>: socket timeout
+2022-11-24 11:44:08.310 ERROR 15696 --- [O dispatcher 26] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1669261437000&endTime=1669261443000&refetch=false>: socket timeout
+2022-11-24 11:44:15.312 ERROR 15696 --- [O dispatcher 27] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1669261444000&endTime=1669261450000&refetch=false>: socket timeout
+2022-11-24 11:44:22.317 ERROR 15696 --- [O dispatcher 30] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1669261451000&endTime=1669261457000&refetch=false>: socket timeout
+2022-11-24 11:44:29.314 ERROR 15696 --- [O dispatcher 31] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1669261458000&endTime=1669261464000&refetch=false>: socket timeout
+2022-11-24 11:44:36.320 ERROR 15696 --- [O dispatcher 18] c.a.c.s.dashboard.metric.MetricFetcher   : Failed to fetch metric from <http://192.168.0.247:8720/metric?startTime=1669261465000&endTime=1669261471000&refetch=false>: socket timeout
+INFO: Sentinel log output type is: file
+INFO: Sentinel log charset is: utf-8
+INFO: Sentinel log base directory is: C:\Users\Administrator\logs\csp\
+INFO: Sentinel log name use pid is: false
+INFO: Sentinel log level is: INFO
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.5.12)
+
+2022-12-23 17:49:39.111  INFO 22152 --- [           main] c.a.c.s.dashboard.DashboardApplication   : Starting DashboardApplication using Java 1.8.0_151 on DESKTOP-JBN01T3 with PID 22152 (D:\fssrcNew202001\java\youlai-mall\middleware\sentinel\sentinel-dashboard-1.8.5.jar started by Administrator in D:\fssrcNew202001\java\youlai-mall\middleware\sentinel)
+2022-12-23 17:49:39.128  INFO 22152 --- [           main] c.a.c.s.dashboard.DashboardApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-12-23 17:49:40.771  INFO 22152 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8858 (http)
+2022-12-23 17:49:40.787  INFO 22152 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-23 17:49:40.794  INFO 22152 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-12-23 17:49:40.934  INFO 22152 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-23 17:49:40.934  INFO 22152 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1743 ms
+2022-12-23 17:49:41.023  INFO 22152 --- [           main] c.a.c.s.dashboard.config.WebConfig       : Sentinel servlet CommonFilter registered
+2022-12-23 17:49:42.045  INFO 22152 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8858 (http) with context path ''
+2022-12-23 17:49:42.055  INFO 22152 --- [           main] c.a.c.s.dashboard.DashboardApplication   : Started DashboardApplication in 3.477 seconds (JVM running for 4.471)
+2022-12-23 17:49:42.215  INFO 22152 --- [nio-8858-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-23 17:49:42.215  INFO 22152 --- [nio-8858-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-23 17:49:42.216  INFO 22152 --- [nio-8858-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-12-23 17:50:24.466  INFO 22152 --- [nio-8858-exec-3] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [Hm_lvt_82116c626a8d504a5c0675073362ef6f=1665986795,1666343019,1666572074;] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
